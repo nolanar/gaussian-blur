@@ -4,7 +4,7 @@ This is an ARM assembly language implementation of a Gaussian blur image manipul
 
 The project can be run using [Keil µVision](http://www.keil.com/uvision/).
 
-The image can be viewed using displayImage.jar found in /veiwer. See the acompanying readme for details on how to use.
+The image can be viewed using [displayImage.jar](/display). See the accompanying readme for details on how to use.
 
 ## Description
 
@@ -31,4 +31,4 @@ The Gaussian blur effect is created through several iterations of a standard box
 
 (left) box blur; (right) Gaussian blur with radius = 3.5, iterations = 4
 
-The main focus was on making the process as effecient as possible. This was necessary due to the use of software implemented of floating point arithmetic and  because the majoraty of testing was done with a relatively slow simulated microcontroller.
+The main focus was on making the process as efficient as possible (without compromising the quality of the blur). This was necessary due to the use of software implemented of floating point arithmetic and because the majority of testing was done with a relatively slow simulated microcontroller.
